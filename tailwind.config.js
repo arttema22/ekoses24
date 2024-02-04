@@ -18,9 +18,9 @@ module.exports = {
         primary: '#242a2b',
         secondary: '#808080',
         accent: {
-          DEFAULT: '#1cbccf',
-          secondary: '#18abbc',
-          tertiary: '#90c6cd'
+          DEFAULT: '#003D71',
+          secondary: '#509F2B',
+          tertiary: '#9FC513'
         },
         grey: '#e8f0f1',
       },

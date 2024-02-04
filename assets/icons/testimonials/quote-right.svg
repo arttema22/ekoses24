@@ -1,3 +1,40 @@
-<svg width="43" height="31" viewBox="0 0 43 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M27.584 30.7087H36.709L42.7923 18.542V0.291992H24.5423V18.542H33.6673M3.25065 30.7087H12.3757L18.459 18.542V0.291992H0.208984V18.542H9.33398L3.25065 30.7087Z" fill="#90C6CD"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="43"
+   height="31"
+   viewBox="0 0 43 31"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="quote-right.svg"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="13.16129"
+     inkscape:cx="23.629902"
+     inkscape:cy="22.490196"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M27.584 30.7087H36.709L42.7923 18.542V0.291992H24.5423V18.542H33.6673M3.25065 30.7087H12.3757L18.459 18.542V0.291992H0.208984V18.542H9.33398L3.25065 30.7087Z"
+     fill="#90C6CD"
+     id="path1"
+     style="fill:#9fc513;fill-opacity:1" />
 </svg>

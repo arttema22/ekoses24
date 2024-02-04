@@ -610,10 +610,6 @@ video {
   right: 0px;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -840,12 +836,6 @@ video {
           user-select: none;
 }
 
-.appearance-none {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1004,12 +994,12 @@ video {
 
 .bg-accent {
   --tw-bg-opacity: 1;
-  background-color: rgb(28 188 207 / var(--tw-bg-opacity));
+  background-color: rgb(0 61 113 / var(--tw-bg-opacity));
 }
 
 .bg-accent-tertiary {
   --tw-bg-opacity: 1;
-  background-color: rgb(144 198 205 / var(--tw-bg-opacity));
+  background-color: rgb(159 197 19 / var(--tw-bg-opacity));
 }
 
 .bg-grey {
@@ -1072,11 +1062,6 @@ video {
   padding-right: 3rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1127,14 +1112,14 @@ video {
   padding-bottom: 10px;
 }
 
-.py-\[6px\] {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
 .py-\[30px\] {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .pb-12 {
@@ -1143,6 +1128,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
 }
 
 .pl-\[30px\] {
@@ -1159,10 +1148,6 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
-}
-
-.pb-\[10px\] {
-  padding-bottom: 10px;
 }
 
 .text-center {
@@ -1244,17 +1229,12 @@ video {
 
 .text-accent {
   --tw-text-opacity: 1;
-  color: rgb(28 188 207 / var(--tw-text-opacity));
+  color: rgb(0 61 113 / var(--tw-text-opacity));
 }
 
 .text-accent-tertiary {
   --tw-text-opacity: 1;
-  color: rgb(144 198 205 / var(--tw-text-opacity));
-}
-
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(36 42 43 / var(--tw-text-opacity));
+  color: rgb(159 197 19 / var(--tw-text-opacity));
 }
 
 .text-secondary {
@@ -1382,7 +1362,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 9999px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 1.02px;
   transition-property: all;
@@ -1391,9 +1373,9 @@ h6 {
 }
 
 .btn-sm {
-  height: 3.5rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  height: 2.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .btn-lg {
@@ -1404,14 +1386,14 @@ h6 {
 
 .btn-accent {
   --tw-bg-opacity: 1;
-  background-color: rgb(28 188 207 / var(--tw-bg-opacity));
+  background-color: rgb(0 61 113 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .btn-accent:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(24 171 188 / var(--tw-bg-opacity));
+  background-color: rgb(80 159 43 / var(--tw-bg-opacity));
 }
 
 .btn-white {
@@ -1428,7 +1410,7 @@ h6 {
 .btn-outline {
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(28 188 207 / var(--tw-border-opacity));
+  border-color: rgb(0 61 113 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity));
@@ -1437,7 +1419,7 @@ h6 {
 .btn-outline:hover {
   border-color: transparent;
   --tw-bg-opacity: 1;
-  background-color: rgb(28 188 207 / var(--tw-bg-opacity));
+  background-color: rgb(0 61 113 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1492,7 +1474,7 @@ h6 {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   --tw-bg-opacity: 1;
-  background-color: rgb(28 188 207 / var(--tw-bg-opacity));
+  background-color: rgb(0 61 113 / var(--tw-bg-opacity));
 }
 
 /* faq */
@@ -1611,7 +1593,7 @@ h6 {
 
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
-  color: rgb(28 188 207 / var(--tw-text-opacity));
+  color: rgb(0 61 113 / var(--tw-text-opacity));
 }
 
 .focus\:w-\[180px\]:focus {
@@ -1624,7 +1606,7 @@ h6 {
 
 .focus\:border-accent:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(28 188 207 / var(--tw-border-opacity));
+  border-color: rgb(0 61 113 / var(--tw-border-opacity));
 }
 
 .focus\:text-white:focus {

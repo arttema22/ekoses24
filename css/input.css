@@ -32,11 +32,11 @@ h6 {
 }
 
 .btn {
-   @apply rounded-full uppercase tracking-[1.02px] flex items-center justify-center transition-all;
+   @apply rounded-tl-[35px] rounded-br-[35px] rounded-bl-lg uppercase tracking-[1.02px] flex items-center justify-center transition-all;
 }
 
 .btn-sm {
-   @apply h-14 px-10;
+   @apply h-10 px-5;
 }
 
 .btn-lg {
